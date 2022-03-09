@@ -106,7 +106,7 @@ print(fonction(False, False, False))  # tout false -> False
 print(fonction(True, False, False))  # 1 sauce -> True
 print(fonction(True, True, False))  # 2 sauce -> False
 print(fonction(True, True, True))  # 3 sauce -> False
-"""
+
 
 
 def moyenne_liste(x):
@@ -137,7 +137,7 @@ for i in range(0, len(m1_notes), 1):
     for j in range(0, len(m1_notes[i]), 1):
         print("valeur -> ", m1_notes[i][j], "  ||   i -> ", i, "  ||   j -> ", j)
 
-"""
+
 
 
 i = 0
@@ -159,5 +159,44 @@ for i in range(0, 4, 1):
     print(i)
 
 # range(4) -> [0,1,2,3]
+
+
+
+def s(a):
+    print("liste -> ", a)
+    for i in range(0, len(a), 1):
+        print("i -> ", i, " valeur correspondante -> ", a[i])
+    return len(a)
+
+
+a = [1, 2]
+b = [1, 2, 3, 4]
+c = [1, 2, 3, 1000]
+s(b)
+s(c)
+
+b.append(5)
+
+s(b)
+
+
+
+def has(n):
+    for abc in n:
+        print("valeur regarde -> ", abc)
+        if (abc % 7) == 0:
+            return True
+    return False
+
+
+print(has([1, 21, 31]))
+
+
+print("salut")
+for i in range(10):
+    print()
+    print(i)
+    print("sonya")
+    print()
+print("a")
 """
-print(round(8/2))
