@@ -199,4 +199,79 @@ for i in range(10):
     print("sonya")
     print()
 print("a")
+
+
+dico = {"prenom": "joao", "nom": "quinta", "age": 24}
+
+print(dico.keys())
+
+l = [1, 2, 3]
+for valeur in l:
+    print(valeur)
+
+for cle, valeur in dico.items():
+    print(cle, "     ", valeur)
+
+a = "12345"
+print(a.isdigit())
 """
+
+s = "There is a Casino."
+mot = "CAsInO"
+
+print("DEBUT : ")
+print(s)
+print(mot)
+print()
+
+s = s.lower()
+mot = mot.lower()
+
+print("post lower case : ")
+print(s)
+print(mot)
+print()
+
+s = s.replace(".", "")
+
+print("post point final removal : ")
+print(s)
+print(mot)
+print()
+
+s = s.split()
+
+print("post split : ")
+print(s)
+print(mot)
+print()
+
+if mot in s:
+    print("oui mot est present")
+
+else:
+    print("pas presetn")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liste_res = []
+
+liste = ["phrase0", "phrase1", "phrase2"]
+for i in range(len(liste)):
+    print( i, liste[i])
+
+    liste_res.append(i)

@@ -1,0 +1,9 @@
+joao:
+-baseline values for question 1.3
+- 2b into 2.3
+- 4.1 + 4.2 + 4.3
+
+lea:
+-faire 2.2
+-3.1 + 3.2
+-4.4 + 4.5 + 4.6
