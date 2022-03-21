@@ -214,7 +214,7 @@ for cle, valeur in dico.items():
 
 a = "12345"
 print(a.isdigit())
-"""
+
 
 s = "There is a Casino."
 mot = "CAsInO"
@@ -275,3 +275,51 @@ for i in range(len(liste)):
     print( i, liste[i])
 
     liste_res.append(i)
+
+
+
+def addi(a, b):  # b = "casino" -> ["casino", "they"]
+    return a + b
+
+
+print(addi(1, "2"))
+
+# -> [1,2], [1,2] -> [1+3, 2+4]
+
+
+doc = ["salut casino.", "casino, they", "casinothey"]
+key = ["casino", "they"]
+
+
+def f(d, k):
+    dico = {}
+    for ke in k:
+        l = []
+        for i in range(len(d)):
+            p = d[i]
+            p = p.lower()
+            p = p.replace(".", "").replace(",", "")
+            p = p.split()
+            if ke in p:
+                l.append(i)
+        dico[ke] = l
+    return dico
+
+
+def t(d, k):
+    return {ke: [i for i in range(len(d)) if ke in d[i].lower().replace(".", "").replace(",", "").split()] for ke in k}
+
+
+print(t(doc, key))
+
+"""
+
+import numpy
+
+y = [[1, 2, 3], [4, 5, 6]]
+print(y)
+z = numpy.asarray(y)
+print(z)
+
+print(y[1][2])
+print(z[1, 2])
