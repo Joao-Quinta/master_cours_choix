@@ -17,11 +17,11 @@ clear all; close all; clc;
 % Synthetic data: 'synthetic_verticalT', 'synthetic_farT_cylinder', 
 % 'synthetic_farT', 'synthetic_empty_room', 'synthetic_cylinder'
 
-scene = 'staircase';
+scene = 'board';
 
 % Acquisition time in seconds. Only for real data.
 % Options: 10,20,30 and 60.
-acq_time = 30; 
+acq_time = 10; 
 
 %% Run Skellapop algorithm
 plot_debug = false; % boolean enabling intermediate plotting of the MCMC estimation 
