@@ -1,4 +1,6 @@
-def readSequence( fn ):
+from typing import List, Dict
+
+def readSequence(fn : str ) -> str :
     sequence = ""
     with open(fn) as f:
         for line in f:
@@ -6,10 +8,10 @@ def readSequence( fn ):
             sequence += "".join(elements[1:])
     return sequence
 
-def getGene( sequence, begin, end ):
+def getGene( sequence : str , begin:int, end:int ) -> str:
     return sequence[begin-1:end]
 
-def findAll( sequence, pattern ):
+def findAll( sequence : str, pattern : str) -> List[int]:
     pos = []
     next = sequence.find(pattern)
     while next != -1:
@@ -17,7 +19,7 @@ def findAll( sequence, pattern ):
         next = sequence.find(pattern, next+1)
     return pos
 
-def findDinuc( sequence):
+def findDinuc( sequence: str) -> Dict[str, List[int]]:
     dinucs = ["aa", "tt", "gg", "cc"]
     result = {}
     for p in dinucs:
@@ -25,13 +27,13 @@ def findDinuc( sequence):
         result[p] = positions
     return result
 
-def countDinuc(dinucs):
+def countDinuc(dinucs: Dict[str, List[int]]) -> int:
     sum = 0
     for n in dinucs.values():
         sum += len(n)
     return sum
 
-def saveDinuc( fn, dinucs ):
+def saveDinuc( fn:str, dinucs:  Dict[str, List[int]] ) -> None:
     with open(fn,"w") as f:
         for nn in dinucs.keys():
             for pos in dinucs[nn]:
