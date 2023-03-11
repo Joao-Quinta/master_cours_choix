@@ -1,0 +1,10 @@
+https://stackoverflow.com/questions/66514334/nbconvert-use-allow-chromium-download
+
+
+
+Try in your terminal this command using your notebook:
+
+jupyter nbconvert --to webpdf --allow-chromium-download Untitled.ipynb
+where "Untitled.ipynb" is the name of your notebook.
+
+this should download chromium
