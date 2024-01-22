@@ -1,0 +1,56 @@
+{
+  "dataset_id": "sk_snk-ud-test",
+  "num_documents": 36,
+  "num_annotated_documents": 36,
+  "num_annotations": 2055,
+  "num_annotators": 2,
+  "annotator_ids": [
+    "jozef",
+    "marek"
+  ],
+  "num_docs_with_multiple_annotators": 36,
+  "num_sentences": 1061,
+  "num_tokens": 12736,
+  "label_distribution": {
+    "PER": 539,
+    "ORG": 50,
+    "LOC": 326
+  },
+  "pairwise_f1": {
+    "ref:jozef, pred:marek": {
+      "num_common_annotated_docs": 36,
+      "LOC": {
+        "precision": 0.8758389261744967,
+        "recall": 0.8006134969325154,
+        "f1": 0.8365384615384616
+      },
+      "ORG": {
+        "precision": 0.7297297297297297,
+        "recall": 0.54,
+        "f1": 0.6206896551724138
+      },
+      "PER": {
+        "precision": 0.8848614072494669,
+        "recall": 0.7699443413729128,
+        "f1": 0.8234126984126984
+      }
+    },
+    "average": {
+      "LOC": {
+        "precision": 0.8758389261744967,
+        "recall": 0.8006134969325154,
+        "f1": 0.8365384615384616
+      },
+      "ORG": {
+        "precision": 0.7297297297297297,
+        "recall": 0.54,
+        "f1": 0.6206896551724138
+      },
+      "PER": {
+        "precision": 0.8848614072494669,
+        "recall": 0.7699443413729128,
+        "f1": 0.8234126984126984
+      }
+    }
+  }
+}

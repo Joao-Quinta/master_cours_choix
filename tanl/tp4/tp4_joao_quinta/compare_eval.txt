@@ -1,0 +1,157 @@
+// for every language we in our tests
+// the performance of the pre trained BERT model was much better
+// than the baseline model we created in tp3
+
+// it only happened in a couple of occasions where the f1-score was better for the baseline model
+// for example in the case swedish language with token "I-PER" as well as "B-PER"
+
+// to be fair, the pretrained model was multilingual and not the largest one either
+// if i had used larger BERT models or a specific one for each language (if it existed)
+// the results would have been even better
+
+Portuguese
+              precision    recall  f1-score   support
+
+       B-LOC       0.80      0.84      0.82       476
+       B-ORG       0.87      0.88      0.87       823
+       B-PER       0.93      0.92      0.93       690
+       I-LOC       0.82      0.65      0.73       236
+       I-ORG       0.88      0.76      0.82       632
+       I-PER       0.96      0.97      0.96       552
+           O       0.99      1.00      0.99     33352
+
+    accuracy                           0.98     36761
+   macro avg       0.89      0.86      0.87     36761
+weighted avg       0.98      0.98      0.98     36761
+
+
+
+
+Chinese
+              precision    recall  f1-score   support
+
+       B-LOC       0.85      0.86      0.85      1015
+       B-ORG       0.73      0.74      0.74       290
+       B-PER       0.80      0.92      0.86       448
+       I-LOC       0.81      0.72      0.77       518
+       I-ORG       0.72      0.80      0.76       301
+       I-PER       0.81      0.88      0.84       212
+           O       0.99      0.98      0.99     15347
+
+    accuracy                           0.96     18131
+   macro avg       0.82      0.85      0.83     18131
+weighted avg       0.96      0.96      0.96     18131
+
+
+
+
+Swedish
+              precision    recall  f1-score   support
+
+       B-LOC       0.51      0.40      0.45       203
+       B-ORG       0.63      0.44      0.51        85
+       B-PER       0.35      0.10      0.16        58
+       I-LOC       0.00      0.00      0.00         8
+       I-ORG       0.00      0.00      0.00        34
+       I-PER       0.00      0.00      0.00        50
+           O       0.99      1.00      1.00     33377
+
+    accuracy                           0.99     33815
+   macro avg       0.35      0.28      0.30     33815
+weighted avg       0.98      0.99      0.99     33815
+
+
+
+
+Serbian
+              precision    recall  f1-score   support
+
+       B-LOC       0.80      0.97      0.87       682
+       B-ORG       0.71      0.84      0.77       565
+       B-OTH       1.00      0.01      0.02       124
+       B-PER       0.92      0.95      0.94       503
+       I-LOC       0.00      0.00      0.00        85
+       I-ORG       0.57      0.54      0.56       295
+       I-OTH       0.00      0.00      0.00       147
+       I-PER       0.98      0.93      0.96       384
+           O       0.99      1.00      0.99     17204
+
+    accuracy                           0.97     19989
+   macro avg       0.66      0.58      0.57     19989
+weighted avg       0.96      0.97      0.96     19989
+
+
+
+
+Slovak
+              precision    recall  f1-score   support
+
+       B-LOC       0.63      0.90      0.74       841
+       B-ORG       0.36      0.07      0.12       129
+       B-PER       0.81      0.87      0.84      1333
+       I-LOC       0.04      0.01      0.01       145
+       I-ORG       0.00      0.00      0.00       163
+       I-PER       0.94      0.77      0.84       507
+           O       0.98      0.98      0.98     21322
+
+    accuracy                           0.95     24440
+   macro avg       0.54      0.51      0.50     24440
+weighted avg       0.95      0.95      0.95     24440
+
+
+
+
+Croatian
+              precision    recall  f1-score   support
+
+       B-LOC       0.84      0.93      0.89      1115
+       B-ORG       0.82      0.89      0.86      1038
+       B-OTH       0.66      0.53      0.59       289
+       B-PER       0.93      0.94      0.93       838
+       I-LOC       0.80      0.34      0.48       177
+       I-ORG       0.79      0.79      0.79       549
+       I-OTH       0.86      0.58      0.69       348
+       I-PER       0.97      0.97      0.97       675
+           O       0.99      1.00      0.99     38085
+
+    accuracy                           0.98     43114
+   macro avg       0.85      0.77      0.80     43114
+weighted avg       0.98      0.98      0.98     43114
+
+
+
+
+English
+              precision    recall  f1-score   support
+
+       B-LOC       0.82      0.85      0.83       494
+       B-ORG       0.55      0.66      0.60       531
+       B-PER       0.88      0.86      0.87       694
+       I-LOC       0.48      0.46      0.47        98
+       I-ORG       0.65      0.56      0.60       361
+       I-PER       0.92      0.95      0.94       435
+           O       0.99      0.99      0.99     29988
+
+    accuracy                           0.97     32601
+   macro avg       0.76      0.76      0.76     32601
+weighted avg       0.97      0.97      0.97     32601
+
+
+
+
+Danish
+              precision    recall  f1-score   support
+
+       B-LOC       0.71      0.79      0.75       190
+       B-ORG       0.78      0.75      0.76       513
+       B-PER       0.87      0.79      0.83       336
+       I-LOC       0.00      0.00      0.00         9
+       I-ORG       0.80      0.39      0.52       101
+       I-PER       0.94      0.99      0.97       293
+           O       0.99      0.99      0.99     14079
+
+    accuracy                           0.97     15521
+   macro avg       0.73      0.67      0.69     15521
+weighted avg       0.97      0.97      0.97     15521
+
+

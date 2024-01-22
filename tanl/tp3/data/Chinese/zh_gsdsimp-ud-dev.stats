@@ -1,0 +1,18 @@
+{
+  "dataset_id": "zh_gsdsimp-ud-dev",
+  "num_documents": 17,
+  "num_annotated_documents": 17,
+  "num_annotations": 899,
+  "num_annotators": 1,
+  "annotator_ids": [
+    "linpq"
+  ],
+  "num_docs_with_multiple_annotators": 0,
+  "num_sentences": 500,
+  "num_tokens": 12663,
+  "label_distribution": {
+    "ORG": 133,
+    "LOC": 375,
+    "PER": 245
+  }
+}

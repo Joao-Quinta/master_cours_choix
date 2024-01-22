@@ -1,0 +1,223 @@
+Portuguese
+              precision    recall  f1-score   support
+
+       B-LOC       0.51      0.86      0.64       315
+      B-MISC       0.00      0.00      0.00         0
+       B-ORG       0.81      0.49      0.61       452
+       B-PER       0.84      0.85      0.85       442
+       I-LOC       0.44      0.72      0.55       180
+      I-MISC       0.00      0.00      0.00         0
+       I-ORG       0.77      0.43      0.55       426
+       I-PER       0.90      0.94      0.92       320
+           O       0.99      0.98      0.99     25354
+
+    accuracy                           0.96     27489
+   macro avg       0.58      0.59      0.57     27489
+weighted avg       0.98      0.96      0.96     27489
+
+
+
+
+Chinese
+               precision    recall  f1-score   support
+
+   B-CARDINAL       0.00      0.00      0.00         0
+       B-DATE       0.00      0.00      0.00         0
+      B-EVENT       0.00      0.00      0.00         0
+        B-FAC       0.00      0.00      0.00         0
+        B-GPE       0.00      0.00      0.00         0
+        B-LOC       0.62      0.03      0.06       294
+      B-MONEY       0.00      0.00      0.00         0
+       B-NORP       0.00      0.00      0.00         0
+    B-ORDINAL       0.00      0.00      0.00         0
+        B-ORG       0.41      0.24      0.30        89
+        B-PER       0.00      0.00      0.00       129
+    B-PERCENT       0.00      0.00      0.00         0
+     B-PERSON       0.00      0.00      0.00         0
+    B-PRODUCT       0.00      0.00      0.00         0
+   B-QUANTITY       0.00      0.00      0.00         0
+       B-TIME       0.00      0.00      0.00         0
+B-WORK_OF_ART       0.00      0.00      0.00         0
+   I-CARDINAL       0.00      0.00      0.00         0
+       I-DATE       0.00      0.00      0.00         0
+      I-EVENT       0.00      0.00      0.00         0
+        I-FAC       0.00      0.00      0.00         0
+        I-GPE       0.00      0.00      0.00         0
+        I-LOC       1.00      0.00      0.01       216
+      I-MONEY       0.00      0.00      0.00         0
+        I-ORG       0.47      0.21      0.29       147
+        I-PER       0.00      0.00      0.00        75
+     I-PERSON       0.00      0.00      0.00         0
+    I-PRODUCT       0.00      0.00      0.00         0
+   I-QUANTITY       0.00      0.00      0.00         0
+       I-TIME       0.00      0.00      0.00         0
+I-WORK_OF_ART       0.00      0.00      0.00         0
+            O       0.93      0.91      0.92      6994
+
+     accuracy                           0.81      7944
+    macro avg       0.11      0.04      0.05      7944
+ weighted avg       0.88      0.81      0.82      7944
+
+
+
+
+Swedish
+              precision    recall  f1-score   support
+
+       B-EVN       0.00      0.00      0.00         0
+       B-LOC       0.93      0.87      0.90       124
+       B-MSR       0.00      0.00      0.00         0
+       B-OBJ       0.00      0.00      0.00         0
+       B-ORG       0.62      0.48      0.55        31
+       B-PER       0.00      0.00      0.00        32
+       B-PRS       0.00      0.00      0.00         0
+       B-TME       0.00      0.00      0.00         0
+       B-WRK       0.00      0.00      0.00         0
+       I-LOC       1.00      0.60      0.75         5
+       I-MSR       0.00      0.00      0.00         0
+       I-ORG       1.00      0.33      0.50        15
+       I-PER       0.00      0.00      0.00        24
+       I-PRS       0.00      0.00      0.00         0
+       I-TME       0.00      0.00      0.00         0
+       I-WRK       0.00      0.00      0.00         0
+           O       1.00      0.99      1.00     19143
+
+    accuracy                           0.99     19374
+   macro avg       0.27      0.19      0.22     19374
+weighted avg       0.99      0.99      0.99     19374
+
+
+
+
+Serbian
+              precision    recall  f1-score   support
+
+       B-LOC       0.53      0.50      0.52       275
+      B-MISC       0.00      0.00      0.00         0
+       B-ORG       0.59      0.36      0.45       169
+       B-OTH       0.00      0.00      0.00        40
+       B-PER       0.30      0.65      0.41       166
+       I-LOC       0.27      0.14      0.18        43
+      I-MISC       0.00      0.00      0.00         0
+       I-ORG       0.21      0.02      0.04       135
+       I-OTH       0.00      0.00      0.00        44
+       I-PER       0.51      0.91      0.65       106
+           O       0.98      0.97      0.97      7796
+
+    accuracy                           0.91      8774
+   macro avg       0.31      0.32      0.29      8774
+weighted avg       0.91      0.91      0.91      8774
+
+
+
+
+Slovak
+              precision    recall  f1-score   support
+
+       B-LOC       0.39      0.46      0.42       326
+      B-MISC       0.00      0.00      0.00         0
+       B-ORG       0.21      0.22      0.21        50
+       B-PER       0.45      0.56      0.50       539
+       I-LOC       0.16      0.07      0.09        76
+      I-MISC       0.00      0.00      0.00         0
+       I-ORG       0.36      0.10      0.16        80
+       I-PER       0.50      0.54      0.52       316
+           O       0.97      0.94      0.95     11349
+
+    accuracy                           0.89     12736
+   macro avg       0.34      0.32      0.32     12736
+weighted avg       0.91      0.89      0.90     12736
+
+
+
+
+Croatian
+              precision    recall  f1-score   support
+
+ B-DERIV_PER       0.00      0.00      0.00         0
+       B-LOC       0.97      0.95      0.96       419
+      B-MISC       0.00      0.00      0.00         0
+       B-ORG       0.91      0.94      0.92       236
+       B-OTH       0.00      0.00      0.00        96
+       B-PER       0.89      0.91      0.90       289
+       I-LOC       0.99      0.91      0.95        81
+      I-MISC       0.00      0.00      0.00         0
+       I-ORG       0.82      0.89      0.85       178
+       I-OTH       0.00      0.00      0.00        88
+       I-PER       0.98      0.95      0.96       171
+           O       1.00      1.00      1.00     16937
+
+    accuracy                           0.98     18495
+   macro avg       0.55      0.55      0.55     18495
+weighted avg       0.98      0.98      0.98     18495
+
+
+
+
+English
+               precision    recall  f1-score   support
+
+   B-CARDINAL       0.00      0.00      0.00         0
+       B-DATE       0.00      0.00      0.00         0
+      B-EVENT       0.00      0.00      0.00         0
+        B-FAC       0.00      0.00      0.00         0
+        B-GPE       0.00      0.00      0.00         0
+        B-LAW       0.00      0.00      0.00         0
+        B-LOC       0.43      0.03      0.06       261
+      B-MONEY       0.00      0.00      0.00         0
+       B-NORP       0.00      0.00      0.00         0
+    B-ORDINAL       0.00      0.00      0.00         0
+        B-ORG       0.33      0.47      0.39       257
+        B-PER       0.00      0.00      0.00       401
+    B-PERCENT       0.00      0.00      0.00         0
+     B-PERSON       0.00      0.00      0.00         0
+    B-PRODUCT       0.00      0.00      0.00         0
+   B-QUANTITY       0.00      0.00      0.00         0
+       B-TIME       0.00      0.00      0.00         0
+B-WORK_OF_ART       0.00      0.00      0.00         0
+   I-CARDINAL       0.00      0.00      0.00         0
+       I-DATE       0.00      0.00      0.00         0
+      I-EVENT       0.00      0.00      0.00         0
+        I-FAC       0.00      0.00      0.00         0
+        I-GPE       0.00      0.00      0.00         0
+        I-LAW       0.00      0.00      0.00         0
+        I-LOC       0.53      0.17      0.26        58
+      I-MONEY       0.00      0.00      0.00         0
+       I-NORP       0.00      0.00      0.00         0
+        I-ORG       0.35      0.57      0.44       208
+        I-PER       0.00      0.00      0.00       199
+    I-PERCENT       0.00      0.00      0.00         0
+     I-PERSON       0.00      0.00      0.00         0
+    I-PRODUCT       0.00      0.00      0.00         0
+   I-QUANTITY       0.00      0.00      0.00         0
+       I-TIME       0.00      0.00      0.00         0
+I-WORK_OF_ART       0.00      0.00      0.00         0
+            O       0.99      0.93      0.96     20019
+
+     accuracy                           0.88     21403
+    macro avg       0.07      0.06      0.06     21403
+ weighted avg       0.94      0.88      0.91     21403
+
+
+
+
+Danish
+              precision    recall  f1-score   support
+
+       B-LOC       0.57      0.71      0.63        89
+      B-MISC       0.00      0.00      0.00         0
+       B-ORG       0.74      0.41      0.53       165
+       B-PER       0.79      0.79      0.79       183
+       I-LOC       0.20      0.75      0.32         4
+      I-MISC       0.00      0.00      0.00         0
+       I-ORG       0.67      0.37      0.47        49
+       I-PER       0.96      0.93      0.95       138
+           O       0.99      0.99      0.99      9263
+
+    accuracy                           0.97      9891
+   macro avg       0.55      0.55      0.52      9891
+weighted avg       0.98      0.97      0.97      9891
+
+
+
+

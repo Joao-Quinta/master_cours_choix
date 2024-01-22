@@ -1,0 +1,56 @@
+{
+  "dataset_id": "zh_gsdsimp-ud-test",
+  "num_documents": 17,
+  "num_annotated_documents": 17,
+  "num_annotations": 909,
+  "num_annotators": 2,
+  "annotator_ids": [
+    "cdeng73",
+    "linpq"
+  ],
+  "num_docs_with_multiple_annotators": 1,
+  "num_sentences": 500,
+  "num_tokens": 12012,
+  "label_distribution": {
+    "LOC": 429,
+    "ORG": 129,
+    "PER": 205
+  },
+  "pairwise_f1": {
+    "ref:cdeng73, pred:linpq": {
+      "num_common_annotated_docs": 1,
+      "LOC": {
+        "precision": 0.4838709677419355,
+        "recall": 1.0,
+        "f1": 0.6521739130434783
+      },
+      "ORG": {
+        "precision": 0.16666666666666666,
+        "recall": 0.3333333333333333,
+        "f1": 0.2222222222222222
+      },
+      "PER": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      }
+    },
+    "average": {
+      "LOC": {
+        "precision": 0.4838709677419355,
+        "recall": 1.0,
+        "f1": 0.6521739130434783
+      },
+      "ORG": {
+        "precision": 0.16666666666666666,
+        "recall": 0.3333333333333333,
+        "f1": 0.2222222222222222
+      },
+      "PER": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      }
+    }
+  }
+}
